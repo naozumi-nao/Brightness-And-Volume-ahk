@@ -1,6 +1,4 @@
 class BrightnessSetter {
-	; qwerty12 - 27/05/17
-	; https://github.com/qwerty12/AutoHotkeyScripts/tree/master/LaptopBrightnessSetter
 	static _WM_POWERBROADCAST := 0x218, _osdHwnd := 0, hPowrprofMod := DllCall("LoadLibrary", "Str", "powrprof.dll", "Ptr") 
 
 	__New() {
